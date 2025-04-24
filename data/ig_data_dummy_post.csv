@@ -1,0 +1,172 @@
+post_id,username,post_date,caption,media_type,slide_count,like_count,comment_count,view_count,saved_count,share_count,hashtags,mentions,location,media_url,crawled_at,total_follower,followers,profile_reach,profile_visit,impression,new_followers
+post_0001,brand_id,2025-01-01,Promo Awal Tahun!,carousel,1,515,333,41530,708,188,#sale,@partner_brand,Bandung,http://example.com/media1.jpg,2025-01-02,114182,94996,75167,2043,57880,-4
+post_0002,brand_id,2025-01-01,Jangan lewatkan diskon spesial hari ini!,image,1,3490,490,90221,331,72,#promo,,Bandung,http://example.com/media2.jpg,2025-01-02,96208,94996,75167,2043,57880,-4
+post_0003,brand_id,2025-01-02,Cek produk terbaru kami!,video,1,836,226,29594,760,196,#promo #newyear #discount,@influencer1,Medan,http://example.com/media3.jpg,2025-01-03,104266,94986,30688,1953,59756,-10
+post_0004,brand_id,2025-01-02,Promo Awal Tahun!,carousel,3,3135,203,44242,236,344,#event #2025,@collab,Bali,http://example.com/media4.jpg,2025-01-03,104803,94986,30688,1953,59756,-10
+post_0005,brand_id,2025-01-02,Cek produk terbaru kami!,carousel,4,4360,108,66525,933,428,#2025,,Bali,http://example.com/media5.jpg,2025-01-03,116345,94986,30688,1953,59756,-10
+post_0006,brand_id,2025-01-03,Promo Awal Tahun!,video,1,1600,105,51204,364,392,#sale,,Jakarta,http://example.com/media6.jpg,2025-01-04,98600,95067,37614,735,65003,81
+post_0007,brand_id,2025-01-04,Jangan lewatkan diskon spesial hari ini!,carousel,2,3111,305,32388,764,236,#2025 #event,@partner_brand,Surabaya,http://example.com/media7.jpg,2025-01-05,95127,95022,63527,1574,54401,-45
+post_0008,brand_id,2025-01-04,Lihat behind the scene campaign terbaru kami!,video,1,4411,297,65057,953,409,#newyear #sale #event,@influencer1,Surabaya,http://example.com/media8.jpg,2025-01-05,98855,95022,63527,1574,54401,-45
+post_0009,brand_id,2025-01-05,Cek produk terbaru kami!,image,1,2149,364,17540,725,170,#2025 #discount #event,@influencer1,Bandung,http://example.com/media9.jpg,2025-01-06,115924,95102,20935,1848,21782,80
+post_0010,brand_id,2025-01-06,Cek produk terbaru kami!,carousel,4,4548,263,95549,554,461,#event #promo #2025,@collab,Bali,http://example.com/media10.jpg,2025-01-07,107773,95164,69567,806,99690,62
+post_0011,brand_id,2025-01-07,"New Year, New Goals!",image,1,968,94,60882,902,374,#2025 #sale #discount,@collab,Bandung,http://example.com/media11.jpg,2025-01-08,118037,95138,86618,1590,71049,-26
+post_0012,brand_id,2025-01-08,Lihat behind the scene campaign terbaru kami!,carousel,1,2897,86,81818,89,279,#sale #promo,@influencer1,Surabaya,http://example.com/media12.jpg,2025-01-09,110350,95188,33183,682,66837,50
+post_0013,brand_id,2025-01-08,"New Year, New Goals!",video,1,4340,387,60000,408,99,#promo #sale #2025,@collab,Medan,http://example.com/media13.jpg,2025-01-09,109711,95188,33183,682,66837,50
+post_0014,brand_id,2025-01-08,"New Year, New Goals!",image,1,3810,277,33546,874,79,#2025 #sale #event,@collab,Bali,http://example.com/media14.jpg,2025-01-09,116413,95188,33183,682,66837,50
+post_0015,brand_id,2025-01-09,Lihat behind the scene campaign terbaru kami!,image,1,2773,230,61388,682,315,#2025 #sale #event,@influencer1,Surabaya,http://example.com/media15.jpg,2025-01-10,115798,95176,87714,1485,46546,-12
+post_0016,brand_id,2025-01-09,Lihat behind the scene campaign terbaru kami!,video,1,1212,139,38068,729,217,#promo,,Jakarta,http://example.com/media16.jpg,2025-01-10,95061,95176,87714,1485,46546,-12
+post_0017,brand_id,2025-01-09,Lihat behind the scene campaign terbaru kami!,video,1,836,191,80051,173,138,#promo,@influencer1,Bali,http://example.com/media17.jpg,2025-01-10,92215,95176,87714,1485,46546,-12
+post_0018,brand_id,2025-01-10,"New Year, New Goals!",image,1,1674,408,56180,607,373,#sale #2025,,Bandung,http://example.com/media18.jpg,2025-01-11,112753,95213,16887,1511,23323,37
+post_0019,brand_id,2025-01-11,Promo Awal Tahun!,image,1,4049,473,65156,364,469,#discount,,Surabaya,http://example.com/media19.jpg,2025-01-12,91668,95172,12326,1137,32035,-41
+post_0020,brand_id,2025-01-11,Jangan lewatkan diskon spesial hari ini!,image,1,3974,459,53011,226,194,#discount,@partner_brand,Surabaya,http://example.com/media20.jpg,2025-01-12,115283,95172,12326,1137,32035,-41
+post_0021,brand_id,2025-01-12,"New Year, New Goals!",image,1,1944,348,43609,674,260,#discount #promo #newyear,@collab,Bali,http://example.com/media21.jpg,2025-01-13,117758,95149,62537,1422,28788,-23
+post_0022,brand_id,2025-01-12,Lihat behind the scene campaign terbaru kami!,carousel,5,2295,424,16471,335,216,#sale,@collab,Jakarta,http://example.com/media22.jpg,2025-01-13,115667,95149,62537,1422,28788,-23
+post_0023,brand_id,2025-01-12,Promo Awal Tahun!,video,1,3649,466,72652,300,149,#sale #promo,@collab,Bali,http://example.com/media23.jpg,2025-01-13,118534,95149,62537,1422,28788,-23
+post_0024,brand_id,2025-01-13,Jangan lewatkan diskon spesial hari ini!,carousel,4,2657,184,91141,606,339,#newyear,@partner_brand,Medan,http://example.com/media24.jpg,2025-01-14,90388,95194,25967,823,84749,45
+post_0025,brand_id,2025-01-13,Jangan lewatkan diskon spesial hari ini!,video,1,2853,181,87755,773,239,#discount,@collab,Jakarta,http://example.com/media25.jpg,2025-01-14,114912,95194,25967,823,84749,45
+post_0026,brand_id,2025-01-14,Promo Awal Tahun!,video,1,2320,478,58027,824,58,#newyear #2025 #event,@collab,Surabaya,http://example.com/media26.jpg,2025-01-15,112693,95290,50634,1227,54853,96
+post_0027,brand_id,2025-01-15,Promo Awal Tahun!,video,1,693,81,99702,731,252,#event #2025,@partner_brand,Jakarta,http://example.com/media27.jpg,2025-01-16,104439,95243,19596,2645,88857,-47
+post_0028,brand_id,2025-01-16,Lihat behind the scene campaign terbaru kami!,image,1,1574,409,59912,465,257,#newyear,@collab,Bandung,http://example.com/media28.jpg,2025-01-17,116484,95213,82948,2593,34007,-30
+post_0029,brand_id,2025-01-16,Jangan lewatkan diskon spesial hari ini!,carousel,2,2850,403,26128,917,244,#newyear,@partner_brand,Medan,http://example.com/media29.jpg,2025-01-17,96852,95213,82948,2593,34007,-30
+post_0030,brand_id,2025-01-16,Cek produk terbaru kami!,image,1,3382,205,39142,714,55,#discount #newyear,@influencer1,Medan,http://example.com/media30.jpg,2025-01-17,90520,95213,82948,2593,34007,-30
+post_0031,brand_id,2025-01-17,"New Year, New Goals!",carousel,1,3896,472,16030,569,268,#event #newyear #discount,@influencer1,Medan,http://example.com/media31.jpg,2025-01-18,109922,95252,83464,2685,22349,39
+post_0032,brand_id,2025-01-17,Jangan lewatkan diskon spesial hari ini!,video,1,4885,147,60643,1000,220,#promo #event,@collab,Jakarta,http://example.com/media32.jpg,2025-01-18,110464,95252,83464,2685,22349,39
+post_0033,brand_id,2025-01-17,Lihat behind the scene campaign terbaru kami!,image,1,2054,462,50379,341,373,#2025 #event #discount,,Bandung,http://example.com/media33.jpg,2025-01-18,119924,95252,83464,2685,22349,39
+post_0034,brand_id,2025-01-18,Lihat behind the scene campaign terbaru kami!,image,1,1910,296,30922,940,488,#newyear #sale #2025,@collab,Jakarta,http://example.com/media34.jpg,2025-01-19,104119,95271,85978,2678,19551,19
+post_0035,brand_id,2025-01-18,Promo Awal Tahun!,carousel,2,2005,208,98345,506,478,#discount #newyear,@collab,Jakarta,http://example.com/media35.jpg,2025-01-19,100359,95271,85978,2678,19551,19
+post_0036,brand_id,2025-01-19,Promo Awal Tahun!,carousel,3,4703,229,16711,844,38,#discount #event,@collab,Jakarta,http://example.com/media36.jpg,2025-01-20,112248,95275,25144,1409,71795,4
+post_0037,brand_id,2025-01-19,Promo Awal Tahun!,image,1,2226,139,74848,73,475,#2025,,Medan,http://example.com/media37.jpg,2025-01-20,112800,95275,25144,1409,71795,4
+post_0038,brand_id,2025-01-19,Jangan lewatkan diskon spesial hari ini!,video,1,3746,497,58495,926,285,#discount #2025,@collab,Surabaya,http://example.com/media38.jpg,2025-01-20,118356,95275,25144,1409,71795,4
+post_0039,brand_id,2025-01-20,Promo Awal Tahun!,carousel,1,4983,267,11380,978,167,#newyear #sale,,Surabaya,http://example.com/media39.jpg,2025-01-21,100392,95345,23855,1294,74413,70
+post_0040,brand_id,2025-01-21,Jangan lewatkan diskon spesial hari ini!,video,1,4865,82,45224,992,258,#discount,@partner_brand,Medan,http://example.com/media40.jpg,2025-01-22,90602,95416,40940,1905,27782,71
+post_0041,brand_id,2025-01-22,Lihat behind the scene campaign terbaru kami!,carousel,2,1902,64,77732,796,455,#newyear #promo #sale,@partner_brand,Medan,http://example.com/media41.jpg,2025-01-23,93311,95492,15151,1641,42877,76
+post_0042,brand_id,2025-01-23,Promo Awal Tahun!,video,1,2022,401,66800,111,287,#newyear #sale #event,,Bandung,http://example.com/media42.jpg,2025-01-24,101514,95499,10885,2178,87669,7
+post_0043,brand_id,2025-01-23,"New Year, New Goals!",carousel,5,745,258,11998,156,51,#event,@influencer1,Medan,http://example.com/media43.jpg,2025-01-24,115450,95499,10885,2178,87669,7
+post_0044,brand_id,2025-01-24,Jangan lewatkan diskon spesial hari ini!,video,1,3844,345,97502,170,292,#sale #newyear #2025,@collab,Bali,http://example.com/media44.jpg,2025-01-25,90643,95581,63852,1522,78685,82
+post_0045,brand_id,2025-01-24,Jangan lewatkan diskon spesial hari ini!,video,1,1686,352,21807,664,239,#2025,@influencer1,Surabaya,http://example.com/media45.jpg,2025-01-25,106287,95581,63852,1522,78685,82
+post_0046,brand_id,2025-01-24,"New Year, New Goals!",video,1,2522,113,83154,716,81,#event #newyear,@collab,Bandung,http://example.com/media46.jpg,2025-01-25,114246,95581,63852,1522,78685,82
+post_0047,brand_id,2025-01-25,Jangan lewatkan diskon spesial hari ini!,video,1,4183,410,83397,381,316,#promo,@partner_brand,Surabaya,http://example.com/media47.jpg,2025-01-26,115176,95537,18387,815,74186,-44
+post_0048,brand_id,2025-01-26,"New Year, New Goals!",video,1,4662,487,94572,93,131,#event #newyear #promo,@influencer1,Bandung,http://example.com/media48.jpg,2025-01-27,91960,95555,49202,515,57842,18
+post_0049,brand_id,2025-01-26,"New Year, New Goals!",video,1,1911,97,83666,217,193,#2025,@collab,Bandung,http://example.com/media49.jpg,2025-01-27,92953,95555,49202,515,57842,18
+post_0050,brand_id,2025-01-26,Cek produk terbaru kami!,carousel,1,3967,224,73332,792,171,#discount #newyear #event,@influencer1,Surabaya,http://example.com/media50.jpg,2025-01-27,118362,95555,49202,515,57842,18
+post_0051,brand_id,2025-01-27,"New Year, New Goals!",video,1,3567,458,26070,895,35,#promo #discount,@influencer1,Bali,http://example.com/media51.jpg,2025-01-28,91966,95643,42713,1953,90313,88
+post_0052,brand_id,2025-01-27,"New Year, New Goals!",carousel,5,3384,192,65304,484,367,#event,@partner_brand,Surabaya,http://example.com/media52.jpg,2025-01-28,111539,95643,42713,1953,90313,88
+post_0053,brand_id,2025-01-28,Jangan lewatkan diskon spesial hari ini!,image,1,3048,258,85342,67,131,#discount #promo #newyear,,Bandung,http://example.com/media53.jpg,2025-01-29,94415,95670,88234,1245,94722,27
+post_0054,brand_id,2025-01-28,"New Year, New Goals!",video,1,1184,310,22475,749,231,#discount #promo,@collab,Bandung,http://example.com/media54.jpg,2025-01-29,90246,95670,88234,1245,94722,27
+post_0055,brand_id,2025-01-28,Cek produk terbaru kami!,carousel,5,3013,287,70783,341,259,#promo,@influencer1,Surabaya,http://example.com/media55.jpg,2025-01-29,98566,95670,88234,1245,94722,27
+post_0056,brand_id,2025-01-29,"New Year, New Goals!",carousel,3,706,477,32132,67,425,#discount #event,,Surabaya,http://example.com/media56.jpg,2025-01-30,91422,95720,75947,1089,25185,50
+post_0057,brand_id,2025-01-29,Cek produk terbaru kami!,video,1,1286,404,66792,641,100,#promo #discount #newyear,,Surabaya,http://example.com/media57.jpg,2025-01-30,115798,95720,75947,1089,25185,50
+post_0058,brand_id,2025-01-30,Promo Awal Tahun!,carousel,5,1806,66,98373,757,189,#2025 #promo,@partner_brand,Medan,http://example.com/media58.jpg,2025-01-31,114241,95812,45070,2794,46255,92
+post_0059,brand_id,2025-01-31,Lihat behind the scene campaign terbaru kami!,image,1,3427,85,94368,895,456,#discount #event #newyear,@partner_brand,Bandung,http://example.com/media59.jpg,2025-02-01,116787,95857,71899,2844,87145,45
+post_0060,brand_id,2025-01-31,Promo Awal Tahun!,image,1,1523,268,92820,207,122,#sale #discount,@influencer1,Medan,http://example.com/media60.jpg,2025-02-01,104239,95857,71899,2844,87145,45
+post_0061,brand_id,2025-01-31,Lihat behind the scene campaign terbaru kami!,video,1,4232,192,20263,509,424,#newyear,,Surabaya,http://example.com/media61.jpg,2025-02-01,97469,95857,71899,2844,87145,45
+post_0062,brand_id,2025-02-01,Promo Awal Tahun!,image,1,2340,498,28736,263,87,#sale #newyear #discount,@influencer1,Bali,http://example.com/media62.jpg,2025-02-02,105610,95927,54613,1221,63815,70
+post_0063,brand_id,2025-02-02,"New Year, New Goals!",image,1,4814,213,96051,242,248,#event #sale #promo,,Surabaya,http://example.com/media63.jpg,2025-02-03,102532,95988,28707,845,60987,61
+post_0064,brand_id,2025-02-03,Lihat behind the scene campaign terbaru kami!,carousel,5,837,494,94457,141,125,#2025,@collab,Jakarta,http://example.com/media64.jpg,2025-02-04,108480,96044,56506,2184,30614,56
+post_0065,brand_id,2025-02-04,"New Year, New Goals!",image,1,838,264,67972,495,342,#2025 #discount,@collab,Bandung,http://example.com/media65.jpg,2025-02-05,93744,96007,48073,1028,66186,-37
+post_0066,brand_id,2025-02-04,Promo Awal Tahun!,image,1,4616,351,30435,561,308,#newyear #promo,@collab,Jakarta,http://example.com/media66.jpg,2025-02-05,111335,96007,48073,1028,66186,-37
+post_0067,brand_id,2025-02-05,Lihat behind the scene campaign terbaru kami!,carousel,2,3197,105,11672,197,30,#event #promo #discount,@collab,Jakarta,http://example.com/media67.jpg,2025-02-06,118738,96104,59695,1890,74527,97
+post_0068,brand_id,2025-02-05,"New Year, New Goals!",carousel,2,791,303,63854,883,114,#newyear,@partner_brand,Jakarta,http://example.com/media68.jpg,2025-02-06,112953,96104,59695,1890,74527,97
+post_0069,brand_id,2025-02-05,"New Year, New Goals!",carousel,5,2132,256,33929,891,232,#newyear,,Bandung,http://example.com/media69.jpg,2025-02-06,112707,96104,59695,1890,74527,97
+post_0070,brand_id,2025-02-06,Jangan lewatkan diskon spesial hari ini!,video,1,2606,129,59075,475,340,#promo #event #2025,,Bali,http://example.com/media70.jpg,2025-02-07,113055,96097,88182,1881,96201,-7
+post_0071,brand_id,2025-02-06,Lihat behind the scene campaign terbaru kami!,carousel,3,4474,414,92415,814,398,#sale,@partner_brand,Jakarta,http://example.com/media71.jpg,2025-02-07,115553,96097,88182,1881,96201,-7
+post_0072,brand_id,2025-02-06,Cek produk terbaru kami!,video,1,1901,315,54643,749,456,#2025,@collab,Bali,http://example.com/media72.jpg,2025-02-07,118720,96097,88182,1881,96201,-7
+post_0073,brand_id,2025-02-07,Jangan lewatkan diskon spesial hari ini!,video,1,3669,254,55210,554,372,#event #newyear #discount,@collab,Bandung,http://example.com/media73.jpg,2025-02-08,113686,96053,37538,1735,64579,-44
+post_0074,brand_id,2025-02-07,Jangan lewatkan diskon spesial hari ini!,image,1,865,251,17238,330,204,#event #promo #sale,@partner_brand,Medan,http://example.com/media74.jpg,2025-02-08,94415,96053,37538,1735,64579,-44
+post_0075,brand_id,2025-02-07,"New Year, New Goals!",carousel,2,4067,234,13290,897,255,#promo,@partner_brand,Surabaya,http://example.com/media75.jpg,2025-02-08,119483,96053,37538,1735,64579,-44
+post_0076,brand_id,2025-02-08,Lihat behind the scene campaign terbaru kami!,carousel,3,1744,209,28417,333,60,#2025,@partner_brand,Medan,http://example.com/media76.jpg,2025-02-09,101155,96128,64056,1291,80685,75
+post_0077,brand_id,2025-02-08,Promo Awal Tahun!,carousel,2,2440,389,47818,973,148,#newyear,@collab,Medan,http://example.com/media77.jpg,2025-02-09,98433,96128,64056,1291,80685,75
+post_0078,brand_id,2025-02-09,Jangan lewatkan diskon spesial hari ini!,video,1,3847,290,99492,919,193,#newyear #2025,@influencer1,Bali,http://example.com/media78.jpg,2025-02-10,93607,96166,77486,1482,68551,38
+post_0079,brand_id,2025-02-10,Cek produk terbaru kami!,image,1,2606,88,31009,268,477,#newyear #2025,@influencer1,Medan,http://example.com/media79.jpg,2025-02-11,97119,96197,87360,589,43882,31
+post_0080,brand_id,2025-02-10,Cek produk terbaru kami!,video,1,1373,441,13726,330,346,#newyear,,Bandung,http://example.com/media80.jpg,2025-02-11,112705,96197,87360,589,43882,31
+post_0081,brand_id,2025-02-10,"New Year, New Goals!",video,1,2728,201,48652,795,435,#promo #2025,@partner_brand,Medan,http://example.com/media81.jpg,2025-02-11,106140,96197,87360,589,43882,31
+post_0082,brand_id,2025-02-11,Lihat behind the scene campaign terbaru kami!,video,1,2562,237,40332,806,326,#promo #newyear #discount,@influencer1,Medan,http://example.com/media82.jpg,2025-02-12,101770,96189,68448,2210,63759,-8
+post_0083,brand_id,2025-02-12,Lihat behind the scene campaign terbaru kami!,carousel,4,4912,192,70053,82,383,#event #newyear #discount,,Surabaya,http://example.com/media83.jpg,2025-02-13,110523,96180,33638,1041,88173,-9
+post_0084,brand_id,2025-02-13,Promo Awal Tahun!,image,1,2111,372,95133,530,307,#sale #discount #newyear,,Bali,http://example.com/media84.jpg,2025-02-14,99088,96208,23463,2075,88839,28
+post_0085,brand_id,2025-02-13,"New Year, New Goals!",video,1,969,139,61171,373,246,#2025 #event,,Bandung,http://example.com/media85.jpg,2025-02-14,103912,96208,23463,2075,88839,28
+post_0086,brand_id,2025-02-13,Cek produk terbaru kami!,video,1,2204,313,27272,253,317,#sale #event #2025,,Jakarta,http://example.com/media86.jpg,2025-02-14,119938,96208,23463,2075,88839,28
+post_0087,brand_id,2025-02-14,Promo Awal Tahun!,image,1,1299,459,49954,656,236,#2025 #newyear #discount,@partner_brand,Jakarta,http://example.com/media87.jpg,2025-02-15,105313,96252,15033,1435,47700,44
+post_0088,brand_id,2025-02-14,Cek produk terbaru kami!,image,1,1361,231,46911,320,295,#event #discount #newyear,,Surabaya,http://example.com/media88.jpg,2025-02-15,92083,96252,15033,1435,47700,44
+post_0089,brand_id,2025-02-14,Cek produk terbaru kami!,video,1,4341,88,23911,165,324,#2025 #sale #event,@influencer1,Surabaya,http://example.com/media89.jpg,2025-02-15,111851,96252,15033,1435,47700,44
+post_0090,brand_id,2025-02-15,Promo Awal Tahun!,image,1,1966,278,28061,490,169,#sale,,Bali,http://example.com/media90.jpg,2025-02-16,104393,96305,83727,2566,93453,53
+post_0091,brand_id,2025-02-15,Promo Awal Tahun!,image,1,4525,270,59277,508,400,#discount #event,@collab,Medan,http://example.com/media91.jpg,2025-02-16,92429,96305,83727,2566,93453,53
+post_0092,brand_id,2025-02-16,Jangan lewatkan diskon spesial hari ini!,video,1,1955,223,54445,730,431,#discount #event,@influencer1,Jakarta,http://example.com/media92.jpg,2025-02-17,109197,96266,33843,2211,44356,-39
+post_0093,brand_id,2025-02-16,Cek produk terbaru kami!,video,1,3780,330,73779,606,382,#sale #event,@collab,Jakarta,http://example.com/media93.jpg,2025-02-17,106350,96266,33843,2211,44356,-39
+post_0094,brand_id,2025-02-16,Lihat behind the scene campaign terbaru kami!,carousel,3,780,159,40276,611,478,#promo #event #discount,@collab,Bandung,http://example.com/media94.jpg,2025-02-17,98607,96266,33843,2211,44356,-39
+post_0095,brand_id,2025-02-17,Cek produk terbaru kami!,carousel,4,1182,250,79427,547,378,#promo #event #2025,,Jakarta,http://example.com/media95.jpg,2025-02-18,117043,96270,85235,2171,84645,4
+post_0096,brand_id,2025-02-17,Promo Awal Tahun!,image,1,2778,70,20022,908,204,#2025,,Jakarta,http://example.com/media96.jpg,2025-02-18,92312,96270,85235,2171,84645,4
+post_0097,brand_id,2025-02-17,Jangan lewatkan diskon spesial hari ini!,image,1,2469,373,11627,164,274,#sale,,Bandung,http://example.com/media97.jpg,2025-02-18,119811,96270,85235,2171,84645,4
+post_0098,brand_id,2025-02-18,Promo Awal Tahun!,image,1,1732,388,34175,403,220,#newyear #discount,@collab,Jakarta,http://example.com/media98.jpg,2025-02-19,119881,96310,70922,1956,77395,40
+post_0099,brand_id,2025-02-19,Cek produk terbaru kami!,image,1,2317,407,39304,650,396,#2025 #newyear,@partner_brand,Bandung,http://example.com/media99.jpg,2025-02-20,118188,96311,65180,1194,76393,1
+post_0100,brand_id,2025-02-20,"New Year, New Goals!",video,1,2043,443,86839,415,143,#newyear #discount #2025,@collab,Jakarta,http://example.com/media100.jpg,2025-02-21,104994,96333,89399,2002,53399,22
+post_0101,brand_id,2025-02-20,Cek produk terbaru kami!,image,1,876,59,94091,448,128,#newyear #2025 #discount,@partner_brand,Surabaya,http://example.com/media101.jpg,2025-02-21,93052,96333,89399,2002,53399,22
+post_0102,brand_id,2025-02-20,Jangan lewatkan diskon spesial hari ini!,video,1,2434,343,22794,320,183,#newyear #2025 #sale,@partner_brand,Bali,http://example.com/media102.jpg,2025-02-21,118990,96333,89399,2002,53399,22
+post_0103,brand_id,2025-02-21,Jangan lewatkan diskon spesial hari ini!,video,1,1096,200,41144,578,458,#newyear,@partner_brand,Jakarta,http://example.com/media103.jpg,2025-02-22,107337,96287,28383,1781,81209,-46
+post_0104,brand_id,2025-02-22,Lihat behind the scene campaign terbaru kami!,image,1,2647,127,10263,945,74,#sale #newyear,@collab,Bandung,http://example.com/media104.jpg,2025-02-23,97869,96369,82780,647,47597,82
+post_0105,brand_id,2025-02-23,Lihat behind the scene campaign terbaru kami!,image,1,2673,57,39593,636,102,#event #promo #discount,,Jakarta,http://example.com/media105.jpg,2025-02-24,105600,96418,22082,1168,29844,49
+post_0106,brand_id,2025-02-23,Jangan lewatkan diskon spesial hari ini!,image,1,3257,139,18835,777,184,#promo #2025 #discount,@collab,Jakarta,http://example.com/media106.jpg,2025-02-24,109268,96418,22082,1168,29844,49
+post_0107,brand_id,2025-02-24,"New Year, New Goals!",carousel,3,3234,81,92500,491,53,#promo #sale,@collab,Bandung,http://example.com/media107.jpg,2025-02-25,109492,96508,11966,500,40034,90
+post_0108,brand_id,2025-02-24,Cek produk terbaru kami!,video,1,1974,151,82619,234,387,#sale #2025,@partner_brand,Jakarta,http://example.com/media108.jpg,2025-02-25,99442,96508,11966,500,40034,90
+post_0109,brand_id,2025-02-24,"New Year, New Goals!",video,1,2494,395,47320,564,341,#discount #2025,,Surabaya,http://example.com/media109.jpg,2025-02-25,101657,96508,11966,500,40034,90
+post_0110,brand_id,2025-02-25,Promo Awal Tahun!,image,1,719,171,65891,68,179,#sale #2025,@partner_brand,Bali,http://example.com/media110.jpg,2025-02-26,90705,96471,62488,839,41782,-37
+post_0111,brand_id,2025-02-26,"New Year, New Goals!",carousel,3,2741,282,93726,734,366,#newyear #event,@partner_brand,Jakarta,http://example.com/media111.jpg,2025-02-27,100050,96453,88935,974,76545,-18
+post_0112,brand_id,2025-02-26,Jangan lewatkan diskon spesial hari ini!,video,1,534,152,24525,193,497,#sale #discount #newyear,,Bali,http://example.com/media112.jpg,2025-02-27,93713,96453,88935,974,76545,-18
+post_0113,brand_id,2025-02-26,Jangan lewatkan diskon spesial hari ini!,carousel,3,3986,493,70322,240,237,#event #discount,@collab,Jakarta,http://example.com/media113.jpg,2025-02-27,97073,96453,88935,974,76545,-18
+post_0114,brand_id,2025-02-27,"New Year, New Goals!",image,1,3450,484,16922,957,399,#2025 #newyear,@influencer1,Medan,http://example.com/media114.jpg,2025-02-28,115070,96547,43823,1791,36830,94
+post_0115,brand_id,2025-02-28,Jangan lewatkan diskon spesial hari ini!,carousel,5,4749,267,49236,984,262,#promo #newyear #event,,Jakarta,http://example.com/media115.jpg,2025-03-01,98649,96552,46045,2045,50093,5
+post_0116,brand_id,2025-03-01,Cek produk terbaru kami!,image,1,4190,416,32429,797,315,#promo #sale,@influencer1,Bali,http://example.com/media116.jpg,2025-03-02,106349,96550,65699,2715,90103,-2
+post_0117,brand_id,2025-03-02,"New Year, New Goals!",carousel,3,2495,192,86788,405,483,#discount #newyear #sale,@partner_brand,Bandung,http://example.com/media117.jpg,2025-03-03,93154,96601,74490,1782,43168,51
+post_0118,brand_id,2025-03-02,Cek produk terbaru kami!,carousel,3,3593,158,41985,803,389,#newyear #sale,,Bali,http://example.com/media118.jpg,2025-03-03,117623,96601,74490,1782,43168,51
+post_0119,brand_id,2025-03-02,Lihat behind the scene campaign terbaru kami!,carousel,1,4872,244,10618,812,92,#event,@influencer1,Bali,http://example.com/media119.jpg,2025-03-03,103773,96601,74490,1782,43168,51
+post_0120,brand_id,2025-03-03,Promo Awal Tahun!,video,1,3440,272,10932,676,438,#promo #sale,,Jakarta,http://example.com/media120.jpg,2025-03-04,106880,96586,10039,1876,21834,-15
+post_0121,brand_id,2025-03-03,"New Year, New Goals!",carousel,5,3041,282,67197,655,457,#promo,@influencer1,Medan,http://example.com/media121.jpg,2025-03-04,112099,96586,10039,1876,21834,-15
+post_0122,brand_id,2025-03-03,Jangan lewatkan diskon spesial hari ini!,video,1,2329,355,92614,166,487,#sale #newyear,@collab,Medan,http://example.com/media122.jpg,2025-03-04,98262,96586,10039,1876,21834,-15
+post_0123,brand_id,2025-03-04,Jangan lewatkan diskon spesial hari ini!,carousel,5,3438,287,68958,343,49,#promo #discount #2025,@influencer1,Jakarta,http://example.com/media123.jpg,2025-03-05,92614,96674,33795,2441,42484,88
+post_0124,brand_id,2025-03-05,"New Year, New Goals!",image,1,1225,90,46661,226,104,#newyear #event #2025,@influencer1,Jakarta,http://example.com/media124.jpg,2025-03-06,109591,96658,64301,1347,50045,-16
+post_0125,brand_id,2025-03-06,Lihat behind the scene campaign terbaru kami!,carousel,3,630,308,58257,801,136,#sale,@collab,Surabaya,http://example.com/media125.jpg,2025-03-07,111286,96670,16430,540,67083,12
+post_0126,brand_id,2025-03-07,Cek produk terbaru kami!,video,1,759,300,78652,302,413,#sale,@collab,Medan,http://example.com/media126.jpg,2025-03-08,102457,96769,21921,551,81353,99
+post_0127,brand_id,2025-03-07,"New Year, New Goals!",image,1,1921,334,69986,619,343,#event #newyear,@collab,Bali,http://example.com/media127.jpg,2025-03-08,92144,96769,21921,551,81353,99
+post_0128,brand_id,2025-03-07,Lihat behind the scene campaign terbaru kami!,carousel,5,1199,331,16448,142,202,#sale,@collab,Bali,http://example.com/media128.jpg,2025-03-08,105322,96769,21921,551,81353,99
+post_0129,brand_id,2025-03-08,Promo Awal Tahun!,video,1,1978,206,30436,509,72,#sale #2025,@partner_brand,Surabaya,http://example.com/media129.jpg,2025-03-09,99691,96869,60604,750,41571,100
+post_0130,brand_id,2025-03-08,Jangan lewatkan diskon spesial hari ini!,carousel,1,4884,110,67061,985,213,#newyear,@collab,Jakarta,http://example.com/media130.jpg,2025-03-09,102584,96869,60604,750,41571,100
+post_0131,brand_id,2025-03-09,Jangan lewatkan diskon spesial hari ini!,video,1,4325,380,13061,345,372,#2025 #newyear #sale,@partner_brand,Jakarta,http://example.com/media131.jpg,2025-03-10,115598,96829,30585,1899,83746,-40
+post_0132,brand_id,2025-03-10,Promo Awal Tahun!,image,1,4194,334,92622,82,406,#discount,@collab,Bandung,http://example.com/media132.jpg,2025-03-11,114373,96924,41648,2428,96443,95
+post_0133,brand_id,2025-03-10,Lihat behind the scene campaign terbaru kami!,image,1,3760,400,90747,747,412,#promo,@collab,Jakarta,http://example.com/media133.jpg,2025-03-11,93994,96924,41648,2428,96443,95
+post_0134,brand_id,2025-03-10,Jangan lewatkan diskon spesial hari ini!,video,1,3858,384,17251,735,356,#promo,@influencer1,Medan,http://example.com/media134.jpg,2025-03-11,117298,96924,41648,2428,96443,95
+post_0135,brand_id,2025-03-11,Lihat behind the scene campaign terbaru kami!,video,1,1831,108,58305,587,57,#newyear #2025 #discount,@influencer1,Surabaya,http://example.com/media135.jpg,2025-03-12,111140,96992,25260,2318,48676,68
+post_0136,brand_id,2025-03-11,Cek produk terbaru kami!,video,1,582,299,49390,605,373,#event #sale #discount,@partner_brand,Bali,http://example.com/media136.jpg,2025-03-12,91785,96992,25260,2318,48676,68
+post_0137,brand_id,2025-03-11,Cek produk terbaru kami!,video,1,3488,122,82750,138,102,#promo,@collab,Bali,http://example.com/media137.jpg,2025-03-12,115834,96992,25260,2318,48676,68
+post_0138,brand_id,2025-03-12,Lihat behind the scene campaign terbaru kami!,carousel,4,2745,287,69374,297,197,#event,@collab,Bandung,http://example.com/media138.jpg,2025-03-13,91272,97007,66052,2522,85214,15
+post_0139,brand_id,2025-03-12,Promo Awal Tahun!,video,1,1901,314,54755,969,324,#discount #sale #2025,@partner_brand,Bali,http://example.com/media139.jpg,2025-03-13,103168,97007,66052,2522,85214,15
+post_0140,brand_id,2025-03-13,Jangan lewatkan diskon spesial hari ini!,video,1,3691,50,46802,397,456,#newyear #sale #event,@influencer1,Surabaya,http://example.com/media140.jpg,2025-03-14,114674,97023,44164,909,97516,16
+post_0141,brand_id,2025-03-14,Cek produk terbaru kami!,carousel,3,1460,256,89780,766,472,#event #newyear,@partner_brand,Jakarta,http://example.com/media141.jpg,2025-03-15,95579,96983,31766,1122,18950,-40
+post_0142,brand_id,2025-03-14,"New Year, New Goals!",video,1,4551,387,69657,514,387,#event,@partner_brand,Bali,http://example.com/media142.jpg,2025-03-15,119530,96983,31766,1122,18950,-40
+post_0143,brand_id,2025-03-15,"New Year, New Goals!",video,1,3089,348,69757,556,148,#sale #2025,@partner_brand,Medan,http://example.com/media143.jpg,2025-03-16,103631,96986,55445,1991,60648,3
+post_0144,brand_id,2025-03-15,Jangan lewatkan diskon spesial hari ini!,video,1,1337,78,29629,78,329,#promo #event,@partner_brand,Jakarta,http://example.com/media144.jpg,2025-03-16,118958,96986,55445,1991,60648,3
+post_0145,brand_id,2025-03-16,Promo Awal Tahun!,carousel,5,725,488,89590,366,348,#sale,@partner_brand,Bandung,http://example.com/media145.jpg,2025-03-17,96688,97035,64516,2115,62116,49
+post_0146,brand_id,2025-03-16,"New Year, New Goals!",video,1,3124,87,42468,97,117,#discount,@influencer1,Jakarta,http://example.com/media146.jpg,2025-03-17,97867,97035,64516,2115,62116,49
+post_0147,brand_id,2025-03-17,Jangan lewatkan diskon spesial hari ini!,image,1,4332,418,53129,56,206,#discount,,Bandung,http://example.com/media147.jpg,2025-03-18,92059,97082,42061,670,75096,47
+post_0148,brand_id,2025-03-17,Lihat behind the scene campaign terbaru kami!,video,1,4795,355,90030,673,417,#newyear,@influencer1,Bali,http://example.com/media148.jpg,2025-03-18,110926,97082,42061,670,75096,47
+post_0149,brand_id,2025-03-18,"New Year, New Goals!",carousel,3,1118,471,88726,709,99,#event #newyear,@partner_brand,Bandung,http://example.com/media149.jpg,2025-03-19,109275,97042,14433,1109,24293,-40
+post_0150,brand_id,2025-03-18,Cek produk terbaru kami!,image,1,4309,175,74794,599,412,#discount,@influencer1,Bandung,http://example.com/media150.jpg,2025-03-19,103550,97042,14433,1109,24293,-40
+post_0151,brand_id,2025-03-19,"New Year, New Goals!",video,1,2038,123,33955,470,287,#2025,@partner_brand,Bandung,http://example.com/media151.jpg,2025-03-20,105614,97082,33232,901,47561,40
+post_0152,brand_id,2025-03-20,Promo Awal Tahun!,video,1,867,494,19660,125,185,#sale,@partner_brand,Surabaya,http://example.com/media152.jpg,2025-03-21,105136,97161,27739,1401,21166,79
+post_0153,brand_id,2025-03-21,Promo Awal Tahun!,image,1,1729,279,62737,138,398,#sale #newyear #promo,@collab,Bali,http://example.com/media153.jpg,2025-03-22,91143,97241,65241,605,94016,80
+post_0154,brand_id,2025-03-21,Jangan lewatkan diskon spesial hari ini!,carousel,5,3456,320,32237,98,426,#newyear #promo #event,,Bali,http://example.com/media154.jpg,2025-03-22,91768,97241,65241,605,94016,80
+post_0155,brand_id,2025-03-21,Lihat behind the scene campaign terbaru kami!,carousel,4,4953,118,83808,687,496,#promo,@partner_brand,Bali,http://example.com/media155.jpg,2025-03-22,102408,97241,65241,605,94016,80
+post_0156,brand_id,2025-03-22,Promo Awal Tahun!,video,1,4393,300,93679,150,36,#event #newyear,@partner_brand,Bali,http://example.com/media156.jpg,2025-03-23,110779,97225,63811,2709,45753,-16
+post_0157,brand_id,2025-03-22,Jangan lewatkan diskon spesial hari ini!,carousel,3,3769,173,37293,314,241,#newyear #discount #event,@partner_brand,Bandung,http://example.com/media157.jpg,2025-03-23,109212,97225,63811,2709,45753,-16
+post_0158,brand_id,2025-03-22,Jangan lewatkan diskon spesial hari ini!,carousel,1,4690,168,81698,732,109,#promo #event,@influencer1,Surabaya,http://example.com/media158.jpg,2025-03-23,94735,97225,63811,2709,45753,-16
+post_0159,brand_id,2025-03-23,Promo Awal Tahun!,image,1,4748,325,31545,367,438,#sale #newyear #discount,@partner_brand,Bandung,http://example.com/media159.jpg,2025-03-24,104752,97256,77352,2950,50720,31
+post_0160,brand_id,2025-03-24,Lihat behind the scene campaign terbaru kami!,image,1,2763,475,68822,321,191,#2025 #promo #sale,@partner_brand,Surabaya,http://example.com/media160.jpg,2025-03-25,107103,97259,86425,1493,92936,3
+post_0161,brand_id,2025-03-25,Lihat behind the scene campaign terbaru kami!,video,1,986,168,37596,450,346,#sale #event,@collab,Bali,http://example.com/media161.jpg,2025-03-26,112224,97320,80713,1011,44810,61
+post_0162,brand_id,2025-03-26,"New Year, New Goals!",image,1,2004,147,98979,762,33,#2025,@partner_brand,Medan,http://example.com/media162.jpg,2025-03-27,96384,97271,36374,2781,61334,-49
+post_0163,brand_id,2025-03-27,Lihat behind the scene campaign terbaru kami!,image,1,1961,396,66986,125,427,#sale #newyear,,Medan,http://example.com/media163.jpg,2025-03-28,116190,97250,87046,1363,44048,-21
+post_0164,brand_id,2025-03-28,"New Year, New Goals!",carousel,5,2503,474,62801,300,118,#discount #sale,@influencer1,Surabaya,http://example.com/media164.jpg,2025-03-29,116807,97324,82831,1030,16672,74
+post_0165,brand_id,2025-03-28,"New Year, New Goals!",image,1,4748,476,49074,510,87,#event #promo,@partner_brand,Medan,http://example.com/media165.jpg,2025-03-29,96179,97324,82831,1030,16672,74
+post_0166,brand_id,2025-03-29,Promo Awal Tahun!,image,1,1223,324,76405,142,461,#discount,@partner_brand,Bali,http://example.com/media166.jpg,2025-03-30,100131,97390,28946,2742,60312,66
+post_0167,brand_id,2025-03-29,"New Year, New Goals!",carousel,4,3106,168,56771,955,197,#newyear,@partner_brand,Jakarta,http://example.com/media167.jpg,2025-03-30,110752,97390,28946,2742,60312,66
+post_0168,brand_id,2025-03-29,Cek produk terbaru kami!,carousel,2,3449,285,26419,229,225,#sale #newyear #discount,,Surabaya,http://example.com/media168.jpg,2025-03-30,109999,97390,28946,2742,60312,66
+post_0169,brand_id,2025-03-30,Jangan lewatkan diskon spesial hari ini!,image,1,1344,147,12434,637,263,#discount #promo,,Medan,http://example.com/media169.jpg,2025-03-31,110335,97435,31853,1398,66917,45
+post_0170,brand_id,2025-03-30,Lihat behind the scene campaign terbaru kami!,carousel,1,2705,174,33339,718,478,#2025,@influencer1,Jakarta,http://example.com/media170.jpg,2025-03-31,113657,97435,31853,1398,66917,45
+post_0171,brand_id,2025-03-31,Cek produk terbaru kami!,image,1,4178,351,67164,737,151,#promo,@collab,Jakarta,http://example.com/media171.jpg,2025-04-01,107263,97506,15759,2626,24200,71
