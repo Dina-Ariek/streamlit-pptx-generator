@@ -6,7 +6,7 @@ def gdrive_auth():
     """Autentikasi ke Google Drive."""
     gauth = GoogleAuth()
 
-    if not os.path.exists("client_secrets.json"):
+    if not os.path.exists("../config/client_secrets.json"):
         raise FileNotFoundError("File client_secrets.json tidak ditemukan.")
 
     gauth.LocalWebserverAuth()

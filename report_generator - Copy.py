@@ -385,7 +385,7 @@ def generate_ppt(username, selected_period):
         }
     }
 
-    ppt_bytes = create_ppt_from_template(content_dict, "POCALVA-template.pptx",username,selected_period)
+    ppt_bytes = create_ppt_from_template(content_dict, "template/template_ppt/POCALVA-template.pptx", username, selected_period)
     return ppt_bytes
 
 

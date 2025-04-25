@@ -1,11 +1,9 @@
-import streamlit as st
-import pandas as pd
+from utils.file_utils import load_csv
 from pptx import Presentation
 from io import BytesIO
-from data_preparation import load_csv
+# from data_preparation import load_csv
 from datetime import date
 from pptx.util import Inches, Pt
-from pptx.util import Inches
 from pptx.chart.data import CategoryChartData
 from pptx.enum.chart import XL_CHART_TYPE
 import pandas as pd
@@ -97,11 +95,11 @@ def table_popular_post(df, selected_period):
 
 def get_logo_path_by_username(username):
     logo_map = {
-        "alva": "logo/vinfast.svg.png",
+        "alva": "template/logo/vinfast.svg.png",
         # "bardi": "assets/logo_bardi.png",
         # "sanken": "assets/logo_sanken.png"
     }
-    return logo_map.get(username.lower(), "logo/default_logo.png")
+    return logo_map.get(username.lower(), "template/logo/default_logo.png")
 
 def add_logo_to_title_slide(prs, logo_path, left=Inches(8), top=Inches(0.2), width=Inches(1)):
     title_slide = prs.slides[0]
@@ -269,10 +267,10 @@ def create_ppt_from_template(content_dict, template_path, username, selected_per
     return ppt_bytes
 def generate_ppt(username, selected_period):
     # fact_post_ig = load_csv("data/fact_instagram_post_dummy.csv")
-    fact_post_tt = load_csv("data/fact_tiktok_post.csv")
-    fact_post_ig = load_csv("data/fact_instagram_post.csv")
-    datamart_ig = load_csv("data/datamart_ig.csv")  #adjust disini
-    datamart_tt = load_csv("data/datamart_tt.csv") #adjust disini
+    fact_post_tt = load_csv("fact_tiktok_post.csv")
+    fact_post_ig = load_csv("fact_instagram_post.csv")
+    datamart_ig = load_csv("datamart_ig.csv")  #adjust disini
+    datamart_tt = load_csv("datamart_tt.csv") #adjust disini
     datamart_all = pd.concat([datamart_ig, datamart_tt], ignore_index=True) #adjust disini
     datamart_all = datamart_all.groupby('month', as_index=False).sum()
     #ig
@@ -385,7 +383,7 @@ def generate_ppt(username, selected_period):
         }
     }
 
-    ppt_bytes = create_ppt_from_template(content_dict, "POCALVA-template.pptx",username,selected_period)
+    ppt_bytes = create_ppt_from_template(content_dict, "template/template_ppt/POCALVA-template.pptx", username, selected_period)
     return ppt_bytes
 
 
@@ -432,13 +430,3 @@ def plot_trend_followers_io(df):
     plt.close(fig)
     img_stream.seek(0)
     return img_stream
-
-selected_period= ('2025-03')
-fact_post_tt = load_csv("data/fact_tiktok_post.csv")
-fact_post_ig = load_csv("data/fact_instagram_post.csv")
-datamart_ig = load_csv("data/datamart_ig.csv")  #adjust disini
-datamart_tt = load_csv("data/datamart_tt.csv") #adjust disini
-datamart_all = pd.concat([datamart_ig, datamart_tt], ignore_index=True) #adjust disini
-datamart_all = datamart_all.groupby('month', as_index=False).sum()
-table_summary_all = table_summary_channel(datamart_all,selected_period)
-print(table_summary_all['followers'].iloc[0])

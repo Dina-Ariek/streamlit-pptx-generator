@@ -151,7 +151,7 @@ def create_ppt_from_template(data, template_path, username):
     return ppt_bytes
 
 def generate_ppt(username, selected_period):
-    template_path = "template-alva.pptx"
+    template_path = "template/template_ppt/template-alva.pptx"
     username = username
     ig_post_df = load_instagram_post(r'data/fact_instagram_post_dummy.csv')
     ig_profile_df = pd.read_csv(r'data/fact_instagram_profile_daily_dummy.csv')
