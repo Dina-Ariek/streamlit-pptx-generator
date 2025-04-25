@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import calendar
 # from data_prep import generate_ppt
-from generate_report.report_generator import generate_ppt
+from generate_report.report_generator import generate_ppt,generate_ppt_basic
 
 # Sample user credentials
 USERNAME = "user1"
@@ -47,14 +47,12 @@ def show_login_page():
             st.session_state.logged_in = True
         else:
             st.error("❌ Kredensial salah, silakan coba lagi.")
-
-
 def show_form():
     st.title("📊 PPTX Report Generator")
     st.markdown("Masukkan parameter laporan di bawah:")
 
     username = st.selectbox("Pilih Username", ["FinVast", "Tesla", "emeronhaircare"])
-    # channel = st.selectbox("Pilih Channel", ["Instagram", "TikTok"])
+    # version = st.selectbox("Pilih versi", ["Basic1", "Basic2"])
 
     # ganti df untuk mengetahui periode postingan data
     df = pd.read_csv("data/ig_data_dummy_post.csv", parse_dates=["post_date"])
@@ -63,10 +61,22 @@ def show_form():
     selected_year, selected_month = select_month_ui(df)
     month_number = list(calendar.month_name).index(selected_month) #s + 1
     selected_period = f"{selected_year}-{month_number:02}"
-    print(selected_period)
+
+    #tombol upload
+    uploaded_file = st.file_uploader("Silahkan upload data Media External (.csv)", type=["csv"])
+
+    external_df = None
+    if uploaded_file is not None:
+        try:
+            external_df = pd.read_csv(uploaded_file)
+            st.success("✅ Data berhasil diupload!")
+            st.dataframe(external_df.head())
+        except Exception as e:
+            st.error(f"❌ Gagal membaca file: {e}")
 
     if st.button("🚀 Generate PPT"):
-        pptx_file = generate_ppt(username, selected_period)
+        # pptx_file = generate_ppt(username, selected_period) #versi lama
+        pptx_file = generate_ppt_basic(username, selected_period) #versi vinfast
         st.session_state.pptx_file = pptx_file
 
         output_path = "output/output.pptx"

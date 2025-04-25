@@ -290,20 +290,6 @@ def generate_ppt(username, selected_period):
     #all
     table_summary_all = table_summary_channel(datamart_all,selected_period)
 
-    data_dict = {
-        # "{table_summary}": table_summary_all,
-        # "{table_summary_tiktok}": table_summary_tt,
-        # "{table_followers_trend_tiktok}": table_followers_trend_tt,
-        # "{table_engagement_trend_tiktok}": table_engagement_trend_tt,
-        # "{table_popular_video_tiktok}":table_popular_post_tt,
-        # "{table_summary_instagram}": table_summary_ig,
-        # "{table_followers_trend_instagram}": table_followers_trend_ig,
-        # "{table_engagement_trend_instagram}": table_engagement_trend_ig,
-        # "{table_popular_post_instagram}": table_popular_post_ig,
-        # "{text_top_post_instagram}" : table_top_post_ig,
-        # "{table_bottom_post_instagram}" :table_bottom_post_ig
-
-    }
     content_dict = {
         "text_top_post_instagram": {
             "type": "text",
@@ -430,3 +416,171 @@ def plot_trend_followers_io(df):
     plt.close(fig)
     img_stream.seek(0)
     return img_stream
+
+def create_ppt_from_template_basic(content_dict, template_path, username, selected_period):
+
+    prs = Presentation(template_path)
+
+    # Tambahkan logo di title slide
+    logo_path = get_logo_path_by_username(username)
+    add_logo_to_title_slide(prs, logo_path)
+
+    # Slide 1: ubah brand dan periode
+    slide_1 = prs.slides[0]
+    for shape in slide_1.shapes:
+        if hasattr(shape, "text"):
+            shape.text = shape.text.replace("{brand}", username)
+            shape.text = shape.text.replace("{periode}", format_selected_period_id(selected_period))
+
+    for slide in [prs.slides[1], prs.slides[4]]:
+        for shape in slide.shapes:
+            if shape.has_text_frame:
+                for para in shape.text_frame.paragraphs:
+                    for run in para.runs:
+                        for key, value in content_dict.items():
+                            if key in run.text:
+                                run.text = run.text.replace(key, value)
+
+    # Loop tabel dalam slide
+    for slide_table in [prs.slides[6], prs.slides[7]]:
+        for shape in slide_table.shapes:
+            if shape.has_table:
+                table = shape.table
+
+                for row in table.rows:
+                    for cell in row.cells:
+                        for paragraph in cell.text_frame.paragraphs:
+                            for run in paragraph.runs:
+                                for key, value in content_dict.items():
+                                    if key in run.text:
+                                        run.text = run.text.replace(key, value)
+
+    # Simpan ke memory
+    ppt_bytes = BytesIO()
+    prs.save(ppt_bytes)
+    ppt_bytes.seek(0)
+    return ppt_bytes
+def generate_ppt_basic(username, selected_period):
+    # fact_post_ig = load_csv("data/fact_instagram_post_dummy.csv")
+    fact_post_tt = load_csv("fact_tiktok_post.csv")
+    fact_post_ig = load_csv("fact_instagram_post.csv")
+    datamart_ig = load_csv("datamart_ig.csv")  #adjust disini
+    datamart_tt = load_csv("datamart_tt.csv") #adjust disini
+    datamart_all = pd.concat([datamart_ig, datamart_tt], ignore_index=True) #adjust disini
+    datamart_all = datamart_all.groupby('month', as_index=False).sum()
+    #ig
+    table_summary_ig = table_summary_channel(datamart_ig, selected_period)
+    table_followers_trend_ig = table_followers_trend(datamart_ig, selected_period)
+    table_engagement_trend_ig = table_engagement_trend(datamart_ig, selected_period)
+    table_top_post_ig =table_top_post(fact_post_ig,selected_period)
+    table_bottom_post_ig =table_bottom_post(fact_post_ig,selected_period)
+    table_popular_post_ig = table_popular_post(fact_post_ig, selected_period)
+    #tiktok
+    table_summary_tt = table_summary_channel(datamart_tt,selected_period)
+    table_followers_trend_tt = table_followers_trend(datamart_tt, selected_period)
+    table_engagement_trend_tt = table_engagement_trend(datamart_tt, selected_period)
+    table_top_post_tt =table_top_post(fact_post_tt,selected_period)
+    table_bottom_post_tt =table_bottom_post(fact_post_tt,selected_period)
+    table_popular_post_tt = table_popular_post(fact_post_tt, selected_period)
+    #all
+    table_summary_all = table_summary_channel(datamart_all,selected_period)
+
+    #metric input yang diperlukan dalam ppt
+    engagement =-54
+    clicks= 23
+    views = 0
+    growth_engagement= -54
+    growth_clicks= 23
+    growth_views= 0
+    post_ig = 17
+    stories_ig =34
+    post_tt =90
+    reach_ig = 12
+    views_ig = 12
+    engagement_ig = 53
+    er_ig = 53
+    followers_growth_ig = 534
+    er_growth_ig = 432
+    reach_tt = 12
+    views_tt = 342
+    engagement_tt = 342
+    er_tt = 4243
+    followers_growth_tt = 242
+    er_growth_tt = 342
+    growth_post =23
+    link_ig = 'https://www.instagram.com/vinfast.indonesia'
+    link_tt = 'https://www.tiktok.com/@vinfastindonesia'
+    impression_meta_kpi = 1
+    cpm_meta_kpi=23
+    impression_tt_kpi =98
+    cpm_tt_kpi =6543
+
+    growth_values = {
+        "engagement": -54,
+        "clicks": -23,
+        "views": 0,
+    }
+    def get_direction(value):
+        if value > 0:
+            return "Increased"
+        elif value < 0:
+            return "Decreased"
+        else:
+            return "No change"
+
+    directions = {k: get_direction(v) for k, v in growth_values.items()}
+
+    data = {
+        #slide 2
+        "{post}": "78",
+        "{engagement}": str(engagement),
+        "{click}": str(clicks),
+        "{impressions}": str(clicks),
+        "{reach_ig}": str(reach_ig),
+        "{views}": str(views),
+        "{growth_post}": str(growth_post),
+        "{growth_engagement}": f"{abs(engagement)}%",
+        "{growth_click}": f"{abs(growth_clicks)}",
+        "{growth_impressions}":f"{abs(engagement)}%",
+        "{growth_reaches}": f"{abs(engagement)}%",
+        "{growth_views}": f"{abs(engagement)}%",
+        "{indikator_post}": directions["engagement"],
+        "{indikator_engagement}": directions["engagement"],
+        "{indikator_clicks}": directions["engagement"],
+        "{indikator_impressions}": directions["engagement"],
+        "{indikator_reaches}": directions["engagement"],
+        "{indikator_views}": directions["engagement"],
+        #slide 5
+        "{post_ig}": str(post_ig),
+        "{stories_ig}": str(stories_ig),
+        "{post_tt}": str(post_tt),
+        "{followers_growth_ig}": str(followers_growth_ig),
+        #"{reach_ig}": str(reach_ig),
+        "{views_ig}": str(views_ig),
+        "{engagement_ig}": str(engagement_ig),
+        "{er_ig}": str(er_ig),
+        "{er_growth_ig}": str(er_growth_ig),
+        "{followers_growth_tt}": str(followers_growth_tt),
+        "{reach_tt}": str(reach_tt),
+        "{plays_tt}": str(views_tt),
+        "{engagement_tt}": str(engagement_tt),
+        "{er_tt}": str(er_tt),
+        "{er_growth_tt}": str(er_growth_tt),
+        "{link_ig}": link_ig,
+        "{link_tt}": link_tt,
+        #slide 8
+        "{impression_meta_kpi}" : str(impression_meta_kpi),
+        "{cpm_meta_kpi}" : str(cpm_meta_kpi) ,
+        "{impression_tt_kpi}" : "43" ,
+        "{cpm_tt_kpi}" : "543" ,
+        "{impression_meta}" : "543" ,
+        "{cpm_meta}" : "654",
+        "{click_meta}" : "6543",
+        "{ctr_meta}" : "54",
+        " {impression_tt}" : "654",
+        "{cpm_tt}" : "654",
+        "{click_tt}" : "43",
+        "{ctr_tt}" : "4"
+    }
+    ppt_bytes = create_ppt_from_template_basic(data, "template/template_ppt/vinfast.pptx", username, selected_period)
+    return ppt_bytes
